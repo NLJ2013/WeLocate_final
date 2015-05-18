@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:background="#2e3237">
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:background="#ffcb1773"
+            android:text="Reset PIN"
+            android:textColor="@color/white"
+            android:layout_marginBottom="81dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:id="@+id/txtcurrPin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/input_register_bg"
+            android:hint="Current PIN"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/input_register"
+            android:textColorHint="@color/input_register_hint"
+            android:layout_marginTop="62dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/btnReset"
+            android:layout_alignEnd="@+id/btnReset" />
+
+        <EditText
+            android:id="@+id/txtNewPin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/input_register_bg"
+            android:hint="New PIN"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/input_register"
+            android:textColorHint="@color/input_register_hint"
+            android:layout_marginTop="43dp"
+            android:layout_below="@+id/txtcurrPin"
+            android:layout_alignStart="@+id/txtcurrPin"
+            android:layout_alignEnd="@+id/txtcurrPin" />
+
+        <EditText
+            android:id="@+id/txtConfirmPin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/input_register_bg"
+            android:hint="Confirm PIN"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/input_register"
+            android:textColorHint="@color/input_register_hint"
+            android:layout_centerVertical="true"
+            android:layout_alignStart="@+id/txtNewPin"
+            android:layout_alignEnd="@+id/txtNewPin" />
+    </RelativeLayout>
+</LinearLayout>

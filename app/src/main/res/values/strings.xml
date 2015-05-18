@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WeLocate</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_PIN">4 Digit PIN</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Find Your Friend</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_mainMenu">Main Menu</string>
+    <string name="title_activity_maps_activity2">Map</string>
+    <string name="btnLocate">Locate</string>
+
+    <string name="hello_world">Fill out these details</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_send_email">Send Email</string>
+    <string name="title_activity_send_sms">Send SMS</string>
+    <string name="app_ID">420806714765318</string>
+    <string name="title_activity_hash">hash</string>
+
+</resources>

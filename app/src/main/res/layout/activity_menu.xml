@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffcb1773"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:id="@+id/linearLayout"
+    android:weightSum="1">
+
+    <Button
+        android:id="@+id/btnSearchFriend"
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@color/btn_login_bg"
+        android:text="Search Friend&apos;s Location"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnMyLocation"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@color/btn_login_bg"
+        android:text="View My Location"
+        android:textColor="#000000" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_weight="0.67">
+
+        <!-- Login Button -->
+
+        <!-- Link to Login Screen -->
+
+        <Button
+            android:id="@+id/btnInvite"
+            android:layout_width="346dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@color/btn_login_bg"
+            android:text="Invite Friends"
+            android:textColor="#000000"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/resetPin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@color/btn_login_bg"
+            android:text="Reset PIN"
+            android:textColor="#000000"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnLogOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="#42000000"
+        android:text="Log Out"
+        android:textColor="#ffffffff" />
+
+</LinearLayout>
